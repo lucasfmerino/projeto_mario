@@ -6,21 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Roboto+Slab:wght@900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
 
     <link rel="stylesheet" href="./src/css/styles.css">
 
-    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 
     <title>Super Mario Bross - O Filme</title>
 </head>
 
 <body>
-
     <div class="video-background">
         <video class="video" autoplay loop muted>
             <source src="./src/video/video-mario.mp4" type="video/mp4">
@@ -28,31 +29,39 @@
     </div>
 
     <header class="header">
-        <a href="">
+        <a>
             <img class="logo" src="./src/imagens/logo-chapeu-mario.png" alt="Mario hat logo">
         </a>
         <nav>
             <ul class="menu">
-                <li>Home</li>
-                <li>Detalhes</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
             </ul>
         </nav>
     </header>
-
     <main class="container">
         <div class="informations">
-            <img calss="title-image" src="./src/imagens/titulo.png" alt="film title">
+            <img class="t-image" src="./src/imagens/title.png" alt="film title">
             <p class="description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-                doloribus sit fuga officia sunt optio magnam vitae! Consequuntur porro
-                recusandae laborum, atque rerum odio cumque quaerat fugiat optio autem
-                reprehenderit!
+                Mario é um encanador junto com seu irmão Luigi. Um dia eles vão parar no reino dos cogumelos, governado
+                pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os
+                lugares.
             </p>
             <button class="button-trailer">
                 Veja o trailer
             </button>
         </div>
         <img class="mario" src="./src/imagens/super-mario-chars.png" alt="super mario chars">
+
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk"
+                    title="Trailer oficial" frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
     </main>
 </body>
 

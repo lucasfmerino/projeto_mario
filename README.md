@@ -1,4 +1,9 @@
 # projeto_mario
-Peojeto Super Mário
 
-EM CONSTRUÇÃO
+<h1>
+Peojeto Super Mário
+</h1>
+
+<h2 align="center"> 
+	🚧  EM CONSTRUÇÃO...  🚧
+</h2>
