@@ -7,6 +7,10 @@
         display: none;
     } */
 
+    .video-background .video {
+        height: 100vh;
+    }
+
     .container {
         flex-wrap: wrap;
         justify-content: center;
@@ -16,6 +20,10 @@
     
     .container .mario {
         max-width: 50%;
+    }
+
+    .container .t-image {
+        max-width: 85%;
     }
 
     .container .informations {
@@ -38,6 +46,11 @@
 }
 
 @media (max-width: 500px) {
+
+    .video-background {
+        display: none;
+    }
+
     .header {
         flex-wrap: wrap;
         justify-content: center;
