@@ -22,9 +22,6 @@
         max-width: 50%;
     }
 
-    .container .t-image {
-        max-width: 85%;
-    }
 
     .container .informations {
         display: flex;
