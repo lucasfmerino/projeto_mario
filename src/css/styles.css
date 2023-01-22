@@ -140,3 +140,16 @@ body {
     opacity: 1;
     visibility: visible;
 }
+
+.info-title {
+    color: floralwhite;
+}
+
+.flip:hover .flipper{
+	transform: rotateY(180deg);
+}
+
+.flipper{
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}

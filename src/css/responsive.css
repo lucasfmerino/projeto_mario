@@ -1,12 +1,11 @@
 @media (max-width: 1200px) {
     body {
         background: linear-gradient(90deg, rgba(213,13,41,1) 0%, rgba(136,19,38,1) 10%, rgba(78,2,20,1) 25%, rgba(46,0,15,1) 50%, rgba(78,2,20,1) 75%, rgba(136,19,38,1) 90%, rgba(213,13,41,1) 100%);
-
     }
 
-    .video-background {
+    /* .video-background {
         display: none;
-    }
+    } */
 
     .container {
         flex-wrap: wrap;
