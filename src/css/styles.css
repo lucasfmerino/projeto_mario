@@ -54,19 +54,24 @@ body {
 }
 
 .container .button-trailer {
-    background-color: #d5011d;
+    background-color: #991224;
     color: #ffffff;
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     border: none;
+    border-color: #ffffff;
+    border-radius: 20px;
     text-transform: uppercase;
     transition: 360ms all ease-in-out;
 }
 
 .container .button-trailer:hover {
     transform: scale(1.15);
+    background-color: #d5011d;
+    border: currentColor;
+    color: #ffffff;
 }
 
 .video-background {
@@ -107,7 +112,7 @@ body {
 .modal-content {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-direction: column;
     height: 100vh;
     border-radius: 5px;
@@ -125,7 +130,7 @@ body {
     border-radius: 10px;
 }
 
-.modal iframw {
+.modal iframe {
     border-width:  0px;
     width: 640px;
     height: 360px;
